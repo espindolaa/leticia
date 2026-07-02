@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-ubuntu: 'Ubuntu';
+  --font-poppins: 'Poppins';
+  --font-caprasimo: 'Caprasimo';
+}
