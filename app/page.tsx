@@ -104,7 +104,7 @@ export default function Page() {
   }, [products, selected, searchText]);
 
   return (
-    <div className="text-white flex flex-col bg-[#000000] max-w-svw items-center min-h-svh md:pt-24 md:pb-12 pt-18 pb-6 overflow-y-auto px-6 max-h-svh">
+    <div className="text-white flex flex-col bg-black max-w-svw items-center min-h-svh md:pt-24 md:pb-12 pt-18 pb-6 overflow-y-auto overflow-x-hidden px-6 max-h-svh">
       <div className="flex flex-col items-center p-2">
         <div className="flex flex-col items-center">
           <div className="w-full flex flex-col justify-center items-center">
