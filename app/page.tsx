@@ -104,8 +104,8 @@ export default function Page() {
   }, [products, selected, searchText]);
 
   return (
-    <div className="text-white flex flex-col bg-[#000000] max-w-svw items-center min-h-svh md:pt-24 md:pb-12 pt-24 pb-6 px-6 max-h-svh overflow-hidden">
-      <div className="flex flex-col items-center overflow-hidden p-2">
+    <div className="text-white flex flex-col bg-[#000000] max-w-svw items-center min-h-svh md:pt-24 md:pb-12 pt-18 pb-6 overflow-y-auto px-6 max-h-svh">
+      <div className="flex flex-col items-center p-2">
         <div className="flex flex-col items-center">
           <div className="w-full flex flex-col justify-center items-center">
             <img src="leticiaetc.png" className="w-48" />
@@ -182,7 +182,7 @@ export default function Page() {
           </div> */}
         </div>
 
-        <div className="flex flex-col items-center w-full min-h overflow-y-auto flex-1">
+        <div className="flex flex-col items-center w-full min-h flex-1">
           {productList.length ? (
             productList.map((p) => (
               <Product
